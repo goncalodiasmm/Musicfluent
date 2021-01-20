@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>musicfluent | Aprenda Música Sem Esforço</title>
+   <link rel="stylesheet" href="style.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+      integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
+      crossorigin="anonymous" />
+</head>
+
+<body>
+   <!-- NAVBAR -->
+   <nav class="navbar container flex">
+      <div class="nav-logo">
+         <a href="index.html"><img src="images/musicfluent.jpg" alt="logo"></a>
+      </div>
+      <div class="nav-links">
+         <ul class="flex">
+            <a href="estudar.html">
+               <li>estudar</li>
+            </a>
+            <a href="comunidade.html">
+               <li>comunidade</li>
+            </a>
+            <a href="inscreva-se_ja.html">
+               <li>inscreva-se já</li>
+            </a>
+         </ul>
+      </div>
+   </nav>
+
+   <!-- SECÇÃO SOLFEJO -->
+   <section class="solfejo">
+      <div class="container flex">
+         <div class="solfejo-title center">
+            <h2>Associe as letras das notas</h2>
+            <h1>ao seu solfejo</h1>
+            <h3>Ligue o som</h3>
+         </div>
+         <div class="solfejo-jogo">
+            <ul class="flex">
+               <li id="lá">
+                  A
+                  <audio id="piano-a" src="notes/piano-a.wav"></audio>
+               </li>
+               <li id="si">
+                  B
+                  <audio id="piano-b" src="notes/piano-b.wav"></audio>
+               </li>
+               <li id="dó">
+                  C
+                  <audio id="piano-c" src="notes/piano-c.wav"></audio>
+               </li>
+               <li id="ré">
+                  D
+                  <audio id="piano-d" src="notes/piano-d.wav"></audio>
+               </li>
+               <li id="mi">
+                  E
+                  <audio id="piano-e" src="notes/piano-e.wav"></audio>
+               </li>
+               <li id="fá">
+                  F
+                  <audio id="piano-f" src="notes/piano-f.wav"></audio>
+               </li>
+               <li id="sol">
+                  G
+                  <audio id="piano-g" src="notes/piano-g.wav"></audio>
+               </li>
+            </ul>
+            <img src="images/notas.svg" alt="notas">
+            <h3 class="center" id="nota"></h3>
+         </div>
+      </div>
+   </section>
+
+   <!-- FOOTER -->
+   <footer class="footer container flex">
+      <p>&copy; 2021 Musicfluent Inc. Todos os direitos reservados</p>
+      <div class="redes-sociais">
+         <a href="https://www.facebook.com/"><i class="fab fa-facebook-f fa-2x"></i></a>
+         <a href="https://www.instagram.com/"><i class="fab fa-instagram fa-2x"></i></a>
+         <a href="https://www.twitter.com/"><i class="fab fa-twitter fa-2x"></i></a>
+      </div>
+   </footer>
+
+   <script src="script.js"></script>
+</body>
+
+</html>
